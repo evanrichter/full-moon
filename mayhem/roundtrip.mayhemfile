@@ -1,0 +1,7 @@
+project: full-moon
+target: roundtrip
+
+cmds:
+  - cmd: /roundtrip
+  - cmd: /roundtrip_no_inst @@
+    libfuzzer: false
